@@ -21,6 +21,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
+	</build>
   <licenses>
     <license>
       <name>The Unlicense</name>
