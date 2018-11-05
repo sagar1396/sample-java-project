@@ -17,6 +17,8 @@
       <version>4.12</version>
       <scope>test</scope>
     </dependency>
+	  
+	  
   </dependencies>
   
   <build>
@@ -38,7 +40,12 @@
           <target>1.8</target>
         </configuration>
       </plugin>
-      
+      <plugin>
+    <groupId>org.sonarsource.scanner.maven</groupId>
+    <artifactId>sonar-maven-plugin</artifactId>
+    <version>3.0.1</version>
+	</plugin>
+
       <plugin>  <!-- Create sources.jar -->
             <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-source-plugin</artifactId>
